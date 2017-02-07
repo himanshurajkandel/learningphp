@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 2</title>
+  <link rel="stylesheet" type="text/css" href="css/assignment2.css">
+</head>
+<body background="logo.png">
+<img src="logo.png" width="100px" height="100px">
+<div id="title"><h1>!!! Shinchan Fan Page !!!</h1></div>
+<div id ="signup">
+  <h1>Signup Form</h1>
+  <form method="post" action="assignment2.php">
+  <table>
+    <th>First Name: <br /></th>
+    <tr>
+    <td><input type="text" name="firstname" size="50"></td>
+    </tr>
+    <th>Last Name: <br /></th>
+    <tr>
+    <td><input type="text" name="lastname" size="50">
+    </td>
+    </tr>
+    <th>Contact: <br /></th>
+    <tr>
+    <td>
+    <input type="radio" name="cinfo" value="phone">Phone
+    <input type="radio" name="cinfo" value="email">Email
+    <br />
+    <input type="text" name="cdetail" size="50">
+    </td>
+    </tr>
+    <th>City: <br /></th>
+    <tr>
+      <td>
+      <select name="location">
+        <option value="pokhara">Pokhara</option>
+        <option value="nepalgunj">Nepalgunj</option>
+        <option value="kathmandu">Kathmandu</option>
+      </select>
+      </tr>
+    </td>
+  <th>Comments: <br /></th>
+  <tr>
+  <td>
+  <textarea name="comment" rows="12" cols="50"></textarea>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <input type="submit" name="submit">
+  </td>
+  </tr>
+  </table>
+  </form>
+</div>
+
+<div id="mortage">
+  <h1>Mortage Calculator</h1>
+<form method="post" action="mortagecalc.php">
+  <p>
+  Annual Salary : <br />
+  <input type="text" name="salary">
+  </p>
+  <p>
+  Interest : <br />
+  <input type="text" name="interest">
+  </p>
+  <input type="submit" name="submit">
+</form>
+</div>
+</body>
+</html>

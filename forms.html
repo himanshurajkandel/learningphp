@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Form page</title>
+</head>
+<body>
+<form method="post" action="forms.php">
+<b>Write down your name !</b>
+<p>Name:
+<input type="text" name="name">
+</p>
+<p>Section:
+<select name="section" size="1">
+  <option value="A">A</option>
+  <option value="B">B</option>
+  <option value="C">C</option>
+  </select>
+</p>
+<p>Comments:<br />
+<textarea name="comments" rows="7" cols="100">
+</textarea>
+</p>
+<p>
+Degrees :
+<br /><input type="checkbox" name="slc" value = "slc">SLC
+<br /><input type="checkbox" name="plustu" value="plus2">+2
+<br /><input type="checkbox" name="bbs" value="bbs">BBS
+</p>
+<p>
+Gender :
+<input type="radio" name="egender" value="Male">Male
+<input type="radio" name="egender" value="Female">Female
+</p>
+<p>
+<input type="submit" value="submit">
+</p>
+</form>
+</body>
+</html>
